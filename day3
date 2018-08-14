@@ -1,0 +1,17 @@
+import time 
+currentTime = time.time() #get currrent time
+
+totalSeconds = int(currentTime)
+
+currentSecond = totalSeconds % 60
+
+totalMinutes = totalSeconds // 60
+
+currentMinute = totalMinutes % 60
+
+totalHours = totalMinutes // 60
+
+currrentHour = totalHours %24
+
+print ("Current time is",currrentHour,":",currentMinute,":",currentSecond,"GMT")
+
