@@ -8,7 +8,7 @@ question1 = "Is your birthday in Set1?\n" + \
 		"\nEnter 0 for No and 1 for Yes: "
 anwer = eval(input(question1))
 
-if anwer == 1
+if anwer == 1：
    day += 1
    
 question2 = "Is your birthday in Set2?\n" + \
@@ -20,7 +20,7 @@ question2 = "Is your birthday in Set2?\n" + \
 anwer = eval(input(question2))
 
 
-if anwer == 1
+if anwer == 1：
    day += 2
 
 question3 = "Is your birthday in Set3?\n" + \
@@ -31,7 +31,7 @@ question3 = "Is your birthday in Set3?\n" + \
 		"Enter 0 for No and 1 for Yes: "
 anwer = eval(input(question3))
 
-if anwer == 1
+if anwer == 1：
    day += 4
 
 question4 = "Is your birthday in Set4?\n" + \
@@ -42,7 +42,7 @@ question4 = "Is your birthday in Set4?\n" + \
 		"Enter 0 for No and 1 for Yes: "
 anwer = eval(input(question4))
 
-if anwer == 1
+if anwer == 1：
    day += 8
 
 question5 = "Is your birthday in Set5?\n" + \
@@ -54,7 +54,7 @@ question5 = "Is your birthday in Set5?\n" + \
 anwer = eval(input(question5))
 
 
-if anwer == 1
+if anwer == 1：
    day += 16
 print("\nYour birthday is "+str(day) + "!")
 
