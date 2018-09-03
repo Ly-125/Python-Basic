@@ -1,1 +1,22 @@
-pan.baidu.com/s/1L2sH7sbYWNiHUg95pf4hBQ
+class Cat:
+
+	def __init__(self,new_name,new_age):
+		self,name = new_name
+		self.age = new_age
+
+	def __str__(self):
+		return "%s's age is:%d"%(self.name,self.age)
+	
+	def eat(self):
+	    print("cat eatting fish....")
+	def drink(self):
+		print("cat drinking coke....")
+	def introduce(self):
+		print("%s's age is:%(self.name,self.age)")
+
+
+A = Cat("Tom",40)
+B = Cat("BlueCat",10)
+
+print(A)
+print(B)
